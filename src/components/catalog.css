@@ -1,0 +1,46 @@
+body {
+  height: 100%;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+}
+
+.dogs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin: 0 4em;
+}
+
+.dog-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  box-shadow: rgba(0, 0, 0, 0.518) 5px 5px 10px;
+  border-style: solid;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.dog-img {
+  width: 40%;
+  height: 200px;
+  border-radius: 5px 0 0 5px;
+}
+
+.dog-img img {
+  width: 100%;
+  height: auto;
+}
+
+.dog-card-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 30px;
+}
